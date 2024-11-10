@@ -1,0 +1,17 @@
+total 12
+drwxrwxrwx 1 root root 4096 Nov 10 04:50 .
+drwxr-xr-x 1 root root 4096 Nov  9 23:29 ..
+-rwxr-xr-x 1 root root  270 Nov 10 03:43 10_argumentos.sh
+-rwxr-xr-x 1 root root  333 Nov 10 03:51 11_stdin.sh
+-rwxr-xr-x 1 root root   57 Nov 10 05:10 12_stderr_tsdout.sh
+-rwxr-xr-x 1 root root   50 Nov 10 00:08 1_hello-world.sh
+-rwxr-xr-x 1 root root  185 Nov  9 23:46 2_guardando_datos_desde_terminal.sh
+-rwxr-xr-x 1 root root   75 Nov 10 00:14 3_salida_datos_terminal.sh
+-rwxr-xr-x 1 root root  176 Nov 10 00:22 4_leyendo_parametros_terminal.sh
+-rwxr-xr-x 1 root root  487 Nov 10 00:50 5_condicionales.sh
+-rwxr-xr-x 1 root root  199 Nov 10 03:10 6_operdores_logicos.sh
+-rwxr-xr-x 1 root root  226 Nov 10 03:23 7_casos.sh
+-rwxr-xr-x 1 root root  410 Nov 10 03:33 8_bucles.sh
+-rwxr-xr-x 1 root root  196 Nov 10 03:37 9_continue_breaks.sh
+-rwxr-xr-x 1 root root  579 Nov 10 05:07 example_login.sh
+drwxr-xr-x 1 root root 4096 Nov 10 05:09 files

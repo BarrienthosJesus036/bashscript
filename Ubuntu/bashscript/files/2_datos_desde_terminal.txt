@@ -1,0 +1,4 @@
+Hola!
+Estoy escribiendo desde la terminal los datos en el archivo de texto
+
+Para terminar este proceso es con CRTL+DEsta es la segunda parte Esta es la segunda parte

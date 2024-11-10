@@ -1,0 +1,15 @@
+services:
+     so:
+          container_name: ubuntu
+          build: .
+          volumes:
+               - ubuntu:/data
+               - ./bashscript:/home/bashscript
+          ports:
+               - "8080:80"
+               - "8000:8080"
+          tty: true
+          stdin_open: true
+
+volumes:
+     ubuntu:
