@@ -1,15 +1,23 @@
 #! /bin/bash
 
-echo $0
-echo $#
-if [[ $# -eq 1 ]]; then
-    echo $1
-elif [[ $# -ge 2 ]]; then
-    echo $1, $2
-    if [[ $# -gt 2 ]]; then
-        shift 2
-        for param in $@; do
-            echo $param
-        done
-    fi
-fi
+names=("Jhon" "Mark" "James")
+
+echo "Lista de nombres: ${names[@]}"
+
+# Eliminando un nombre apartir de un indice
+unset names[1]
+
+for i in ${!names[@]}; do
+    echo ${names[$i]}
+done
+
+# Sobre escribiendo un item con un indice
+names[1]="Smith"
+
+# Agregando un item al final de la lista
+names[${#names[@]}]="Juan Camanei"
+names+=("Bob")
+
+for name in ${names[@]}; do
+    echo "Mi nombre es: $name"
+done
