@@ -1,0 +1,13 @@
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 0C8B-6A17
+
+ Directorio de C:\Users\Barri\Desktop\System\Docker\Ubuntu\batchscript
+
+30/11/2024  21:31    <DIR>          .
+30/11/2024  21:14    <DIR>          ..
+30/11/2024  21:20               173 1_hello_world.bat
+30/11/2024  21:31               114 2_move_create_folder.bat
+30/11/2024  21:29    <DIR>          files
+30/11/2024  21:31                 0 list_files.txt
+               3 archivos            287 bytes
+               3 dirs  362,321,027,072 bytes libres
